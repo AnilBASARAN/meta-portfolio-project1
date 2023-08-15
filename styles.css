@@ -23,6 +23,19 @@ body {
 
 }
 
+#background-1{
+    background-image: url(photo-background.png);
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+bold {
+    color: orangered;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 #logo {
     text-align: center  ;
     padding: 2rem;
