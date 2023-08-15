@@ -28,10 +28,12 @@ body {
     width: auto;
     height: auto;
     color: white;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 bold {
-    color: orangered;
+    color: black;
     font-size: larger;
     font-weight: bolder;
 }
