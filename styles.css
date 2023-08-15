@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+
 h1 {
     font-size: 3rem;
  }
@@ -86,6 +91,7 @@ flex: 8;
     height: auto;
     float: right;
     padding: 10px;
+    margin: auto;
 }
 
 article{
@@ -146,3 +152,55 @@ animation: myanimation 1s 1 ease-in;
     100% {transform: rotate(150deg);} 
 }
 
+@media screen and (max-width: 500px) {
+    #photo6 {
+        width: auto;
+        margin: auto;
+    }
+   .small-photos, .galery-photos {
+     display: none;
+    }
+
+ section {
+    display: block;
+}
+section article {
+    width: auto;
+}
+nav ul{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+nav ul li {
+    box-shadow: 10px 5px 5px black;
+    color: aqua;
+
+}
+img {
+    padding: 1rem;
+}
+footer{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+}
+
+
+
+
+@media screen and (max-width: 950px){
+    main{
+
+    }
+    #hidden1, #photo1{
+        display: none;
+    }
+    img {
+        width: 250px;
+        height: auto;
+    }
+
+}
